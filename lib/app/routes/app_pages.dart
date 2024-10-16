@@ -1,5 +1,6 @@
 import 'package:get/get.dart';
 import 'package:mapel/app/modules/mapel/bindings/mapel_binding.dart';
+import 'package:mapel/app/modules/mapel/views/mapel_tambah_view.dart';
 
 import '../modules/bottombar/bindings/bottombar_binding.dart';
 import '../modules/bottombar/views/bottombar_view.dart';
@@ -37,5 +38,11 @@ class AppPages {
       page: () => const PiketView(),
       binding: PiketBinding(),
     ),
+    GetPage(
+  	name: _Paths.MAPEL_TAMBAH,
+  	page: () => const MapelTambahView(),
+  	binding: MapelBinding(),
+	),
+
   ];
 }

@@ -7,6 +7,7 @@ abstract class Routes {
   static const MAPEL = _Paths.MAPEL;
   static const BOTTOMBAR = _Paths.BOTTOMBAR;
   static const PIKET = _Paths.PIKET;
+  static const MAPEL_TAMBAH = _Paths.MAPEL_TAMBAH;
 }
 
 abstract class _Paths {
@@ -15,4 +16,5 @@ abstract class _Paths {
   static const MAPEL = '/mapel';
   static const BOTTOMBAR = '/bottombar';
   static const PIKET = '/piket';
+  static const MAPEL_TAMBAH = '/mapel-tambah';
 }
