@@ -10,7 +10,7 @@ import '../../../data/repositories/repository_karyawan.dart';
 
 class MapelTambahController extends GetxController {
   var textController1 = TextEditingController().obs; // nama
-  var textController2 = TextEditingController().obs; // Jenis
+  var textController2 = TextEditingController().obs; // jenis
   var textController3 = TextEditingController().obs; // Guru Pengajar
   var textController4 = TextEditingController().obs; // Keterangan
 
