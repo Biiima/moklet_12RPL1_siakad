@@ -10,7 +10,7 @@ class PiketView extends GetView<PiketController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('PiketView'),
+        title: const Text('oke'),
         centerTitle: true,
       ),
       body: const Center(
